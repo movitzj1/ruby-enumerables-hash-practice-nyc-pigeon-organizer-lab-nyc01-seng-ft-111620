@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
             #empty_hash[name].store(key, [inner_key.to_s])
           #else
           empty_hash[name][key] << inner_key.to_s
-          end
+          #end
         end
       end
     end
